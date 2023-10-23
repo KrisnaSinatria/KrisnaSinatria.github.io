@@ -1,0 +1,252 @@
+* 
+/*navbar*/ {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+ 
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color:bisque;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+nav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+nav h1 {
+  color: #c48908;
+}
+
+nav .list {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+nav .list a {
+  color: #c48908;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+
+nav .list a:hover {
+  transform: scale(1.1);
+  border-bottom: 2px solid black;
+}
+/*home*/
+
+
+body header {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+header h1 {
+  color: #c48908;
+  font-size: 6rem;
+  margin-bottom: 10px;
+}
+
+header h3 {
+  color: #c48908;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+header h5 {
+  font-size: 20px;
+  margin-bottom: 2rem;
+  color: #000000;
+}
+
+header h6 {
+  margin-top: 2rem;
+  font-size: 20px;
+  margin-bottom: 2rem;
+  color: #000000;
+}
+
+header a {
+  text-decoration: none;
+  background-color: #c48908;
+  display: inline-block;
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-weight: 600;
+  margin: 1rem 1rem;
+  margin-bottom: 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+header a:hover {
+  transform: scale(1.1);
+  
+}
+
+/*footer*/
+.homefooter {
+  margin-top: 5rem;
+  font-size: 15px;
+  text-align: center;
+  background-color: bisque;
+  color: rgb(0, 0, 0)000;
+  padding: 35px;
+}
+
+/*profil*/
+ .detel{
+    margin-left: 8%;
+    margin-top: 15%;
+    
+    }
+    .detel h1{
+    font-size: 30px;
+    color: #212121;
+    margin-bottom: 20px;
+    }
+    
+    span{
+    color: orange;
+    }
+
+
+    .detel p{
+    color: #555;
+    line-height: 22px;
+    }
+
+
+    .detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+   
+    }
+    
+    
+    .images{
+    
+    height: 70%;
+    width: 45%;
+    right: 100px;
+    position: absolute;
+    bottom: 0;
+    
+    }
+    
+    .foto{
+    height: 80%;
+    position: absolute;
+    left: 75%;
+    bottom: 25%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    }
+
+/*skill*/
+
+
+
+
+.skill1 {
+  background-color: #ffffff;
+  margin-top: 10rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.skill1 img {
+width: 25rem;
+height: 20rem;
+border-radius: 10%;
+margin: 1rem ;
+
+}
+
+
+
+ 
+
+.coding {
+  background-color: #ffffff;
+ margin-top: 3rem;
+ text-align: center;
+}
+
+
+
+.coding img {
+  border-radius: 10%;
+  margin: 2rem;
+  width: 10rem;
+height: 10em;
+}
+
+
+/*projek*/
+
+.projek h1 {
+  color: #c48908;
+  font-size: 3rem;
+}
+
+.projek h4 {
+  color: #c48908;
+  font-size: 20px;
+}
+
+.projek1 {
+  height: 450px;
+  width: 350px;
+  
+  
+  
+  }
+  
+  .foto2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 2rem 7rem;
+  }
+  
+  .foto3 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 2rem 7rem;
+  }
+
+/*contact*/
+
+.formulirkontak {
+margin-top: 10rem;
+margin-bottom: 10rem;
+}
+
